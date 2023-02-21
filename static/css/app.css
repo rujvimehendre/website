@@ -1,3 +1,43 @@
 /**
 * Your CSS here
 **/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#stream, #tower{
+  object-fit: cover;
+}
+
+.favourite-city {
+    background: #c09175;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.activities {
+    background: #bd8270;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+ 
+}
+
+.city-name {
+    background: #d1ae9b;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    
+}
